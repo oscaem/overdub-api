@@ -14,8 +14,8 @@ To use this software, you will need:
 #### Cloning the Repository
 
 
-```git clone https://github.com/your-username/Overdub-API.git 
-cd Overdub-API```
+```git clone https://github.com/your-username/Overdub-API.git```
+```cd Overdub-API```
 #### Setting Up the Virtual Environment
 
 It's best practice to create a virtual environment to manage dependencies for the project:
