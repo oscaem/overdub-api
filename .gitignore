@@ -2,6 +2,7 @@ gcp-overdub-api.iml
 .idea/
 .local/
 *.mp4
+*.mp3
 *.json
 *.env
 app/.env
