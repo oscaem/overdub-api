@@ -55,7 +55,7 @@ Once metadata is obtained, ElevenLabs' capabilities are used to overdub the vide
 Processed videos are outputted to the `__temp__/02_processed` directory. Any generated metadata will be stored in `__temp__/01_metadata`.
 ### Usage
 
-To start processing your content, place your CSV file in the `__temp__/ directory` or specfiy a location in `settings.py` and run the main script:
+To start processing your content, place your CSV file in the `__temp__/ directory` or specifiy a location in `settings.py` and run the main script:
 
 `python main.py`
 Make sure your environment variables and Google Cloud settings are correctly configured before running the script.
