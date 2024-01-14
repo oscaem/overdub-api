@@ -2,7 +2,7 @@
 
 #### Introduction
 
-Welcome to the Overdub API repository. This API serves as an automated tool to create narrated, subtitled videos from raw content with minimal guidance needed. It's a streamlined process to convert any raw video into a polished, accessible, and social-media-ready piece.
+Welcome to **Overdub API**. This API serves as an automated tool to create narrated, subtitled videos from raw content with minimal guidance needed. It's a streamlined process to convert any raw video into a polished, accessible, and social-media-ready piece.
 Getting Started
 
 #### Prerequisites
