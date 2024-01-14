@@ -20,8 +20,8 @@ To use this software, you will need:
 
 It's best practice to create a virtual environment to manage dependencies for the project:
 
-``python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate``
+``python -m venv venv``<br>
+``source venv/bin/activate`` On Windows use ``venv\Scripts\activate``
 #### Install Requirements
 
 Install the required packages for the project using the provided requirements.txt file:
