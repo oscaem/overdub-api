@@ -8,15 +8,14 @@ Getting Started
 #### Prerequisites
 
 To use this software, you will need:
-`Python 3.6` or higher
-`Git`
-A [ElevenLabs API](https://elevenlabs.io/docs/introduction) key
-A Google Cloud account with gcloud installed on your local machine. You can follow this [guide to setup gcloud](https://cloud.google.com/sdk/docs/install).
+- Python 3.6 or higher
+- A [ElevenLabs API](https://elevenlabs.io/docs/introduction) key
+- A Google Cloud account with gcloud installed on your local machine. You can follow this [guide to setup gcloud](https://cloud.google.com/sdk/docs/install).
 #### Cloning the Repository
 
 
-``git clone https://github.com/your-username/Overdub-API.git
-cd Overdub-API```
+`git clone https://github.com/your-username/Overdub-API.git
+cd Overdub-API`
 #### Setting Up the Virtual Environment
 
 It's best practice to create a virtual environment to manage dependencies for the project:
