@@ -41,7 +41,7 @@ async def main():
                 # 5. Generate Subtitles
                 subtitle_text = generate_subtitles_from_timestamps(timestamps, raw_video.path)
 
-                # 3. Process Video
+                # 6. Process Video
                 processed_video_data = await process_video_file(
                     video_id=raw_video.id,
                     video_title=metadata.title,
