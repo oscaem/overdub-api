@@ -11,21 +11,16 @@ METADATA_PATH = "__temp__/01_metadata/"
 OUTPUT_PATH = "__temp__/02_processed/"
 
 # VERTEX AI CONFIG
-PROJECT_ID = 'project-shorts-411002'
-LOCATION = 'us-central1'
+PROJECT_ID = '' # Enter your Vertex AI Project
+LOCATION = '' # Enter your Vertex AI Project
 
-DEFAULT_FUNCTION = """Given a TikTok video Thumbnail and video title """
-CUSTOM_FUNCTION = """Given a TikTok video Thumbnail, title and Voiceover Draft"""
+DEFAULT_FUNCTION = """Given a Video Thumbnail and Video Title """
+CUSTOM_FUNCTION = """Given a Video Thumbnail, Title and Voiceover Draft"""
 
-SYSTEM_PROMPT = """, infer a 1 to 3 sentence voiceover relevant to the video. 
-Optimal is engaging vocabulary like 'Look at what these sweet X are doing!'.
-It should have a clear hook that pulls the viewer in, raises curiosity and makes them watch the video.
-Also infer a very short tile, video description and 3 tags. 
-Return dub, title, description and tags in JSON format. 
-Provide only the JSON starting / ending with {} and nothing else."""
+SYSTEM_PROMPT = """, infer a 1 to 3 sentence, descriptive voiceover relevant to the video."""
 
 # EDITOR CONFIG
-VOLUME_MULTIPLIER = 1.8
+VOLUME_MULTIPLIER = 1.8 # For Voiceover
 
 FONT_PATH = "__temp__/monster.ttf"
 FONT_SIZE = 400
